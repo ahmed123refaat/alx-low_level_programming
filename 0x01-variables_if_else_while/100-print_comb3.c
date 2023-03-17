@@ -11,7 +11,7 @@ for (i = 0; i < 9 ; i++)
 {
 for ( m = 1 ; m < 10 ; m++)
 {
-if (m > n)
+if (m > i)
 {
 putchar(m);
 putchar(n);

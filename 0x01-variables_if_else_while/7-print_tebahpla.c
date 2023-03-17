@@ -6,11 +6,10 @@
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnoprqstuvwxyz";
-int i;
-for (i = 26 ; i > 0 ; i--)
+char ch;
+for (ch = 'z' ; i >= 'a' ; ch--)
 {
-putchar(alp[i]);
+putchar(ch);
 }
 putchar('\n');
 return (0);

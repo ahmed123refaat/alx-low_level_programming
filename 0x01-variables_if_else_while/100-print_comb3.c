@@ -5,6 +5,7 @@
  */
 int main(void)
 {
+int m;
 int i;
 for (i = 0; i < 9 ; i++)
 {

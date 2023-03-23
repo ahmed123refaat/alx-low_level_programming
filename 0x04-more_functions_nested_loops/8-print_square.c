@@ -9,7 +9,6 @@ if ( size <= 0)
 {
 _putchar('\n');
 }
-
 else
 {
 int i;
@@ -21,5 +20,6 @@ for ( j = 0 ; j < size ; j++ )
 _putchar('#');
 }
 }
-}putchar('\n');
+}
+putchar('\n');
 }

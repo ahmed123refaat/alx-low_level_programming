@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char c;
+char c = 'A';
 int _isupper(int c);
 {
-if (c == _isupper)
+if (c == 'A')
 {
 return (1);
 }

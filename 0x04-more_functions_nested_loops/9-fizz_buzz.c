@@ -11,17 +11,17 @@ int main(void)
 int i;
 for (i = 1; i <= 100; i++)
 {
-if (i == i%3)
+if (i % 3 == 0)
 {
-_putchar("Fizz");
+printf("Fizz");
 }
-else if (i == i%5)
+else if (i % 5 == 0)
 {
-_putchar("Buzz");
+printf("Buzz");
 }
-else if (i == i%3 && i == %5)
+else if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar("FizzBuzz");
+printf("FizzBuzz");
 }
 _putchar('\n');
 }

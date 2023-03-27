@@ -8,11 +8,10 @@
 void puts2(char *str)
 {
 int counter = 0;
-char *s;
-while (*s != '\0')
+while (*str != '\0')
 {
 counter = counter + 2;
-s++;
+str++;
 _putchar(str[counter]);
 }
 }

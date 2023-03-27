@@ -29,4 +29,5 @@ else if (i == a)
 _putchar(str[i]);
 }
 }
+_putchar('\n');
 }

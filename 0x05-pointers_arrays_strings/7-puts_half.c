@@ -16,7 +16,7 @@ while (*str != '\0')
 counter++;
 str++;
 }
-n = (counter - 1) / 2;
+n = ((counter - 1) / 2) +1;
 a = (counter) / 2;
 for (i = 0 ; i <= counter ; i++)
 {

@@ -20,7 +20,7 @@ if (i % 2 == 1 || i % 2 == 0)
 {
 i = ((counter + 1) / 2);
 i = (counter) / 2;
-_putchar(str[i]);
+_putchar(*str[i]);
 }
 }
 _putchar('\n');

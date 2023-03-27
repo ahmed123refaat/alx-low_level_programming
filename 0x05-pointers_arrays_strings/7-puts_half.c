@@ -16,12 +16,12 @@ str++;
 }
 for (i = 0 ; i <= counter ; i++)
 {
-if (i %2 == 1)
+if (i % 2 == 1)
 {
 i = ((counter + 1) / 2);
 _putchar(str[i]);
 }
-else if (i%2 == 0)
+else if (i % 2 == 0)
 {
 i = (counter) / 2;
 _putchar(str[i]);

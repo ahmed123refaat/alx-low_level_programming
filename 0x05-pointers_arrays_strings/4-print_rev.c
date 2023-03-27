@@ -12,6 +12,7 @@ while (*s != '\0')
 l++;
 s++;
 }
+s--;
 for (i = l ; i > 0 ; i--)
 {
 _putchar(*s);

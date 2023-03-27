@@ -8,7 +8,6 @@
 void puts2(char *str)
 {
 int counter = 0;
-int i ;
 while (*str != '\0')
 {
 counter = counter + 2;

@@ -11,13 +11,13 @@ int counter;
 int i;
 int n;
 int a;
-n = (counter - 1) / 2;
-a = (counter) / 2;
 while (*str != '\0')
 {
 counter++;
 str++;
 }
+n = (counter - 1) / 2;
+a = (counter) / 2;
 for (i = 0 ; i <= counter ; i++)
 {
 if (i == n)
@@ -30,4 +30,3 @@ _putchar(str[i]);
 }
 }
 }
-

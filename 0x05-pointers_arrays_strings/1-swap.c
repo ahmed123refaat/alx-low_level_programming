@@ -10,7 +10,6 @@ int m;
 int n;
 m = *a;
 n = *b;
-*b = &m;
-*a = &n;
+*b = m;
+*a = n;
 }
-

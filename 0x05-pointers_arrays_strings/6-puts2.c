@@ -13,6 +13,6 @@ while (*s != '\0')
 {
 counter = counter + 2;
 s++;
-_putchar(s[counter]);
+_putchar(str[counter]);
 }
 }

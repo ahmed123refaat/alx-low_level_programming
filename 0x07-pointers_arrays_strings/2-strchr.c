@@ -8,10 +8,10 @@
 char *_strchr(char *s, char c)
 {
 int i ;
-for ( i = 'a'; i <= 'z'; i++)
+for (; s[i] >= '\0'; i++)
 {
-s[i] = c;
-c++;
+if (s[i] == c)
+return (&s[i]);
 }
-return (s);
+return (0);
 }

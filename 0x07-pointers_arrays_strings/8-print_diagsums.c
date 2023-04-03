@@ -12,8 +12,8 @@ int i;
 int j;
 int k;
 int d;
-int sum1 = 0;
-int sum2 = 0;
+int sum1;
+int sum2;
 for (i = 0; i <= size; i++)
 {
 for (j = 0; j <= size; j++)

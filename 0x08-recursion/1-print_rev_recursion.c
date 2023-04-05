@@ -14,4 +14,8 @@ else if (*s)
 s--;
 _putchar(*s);
 }
+else
+{
+_putchar('\n');
+}
 }

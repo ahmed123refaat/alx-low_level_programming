@@ -13,5 +13,5 @@ while (*s != '\0')
 s++;
 i++;
 }
-_putchar(i);
+return (i);
 }

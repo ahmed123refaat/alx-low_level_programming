@@ -11,7 +11,6 @@ int i;
 if (*s != '\0')
 {
 s++;
-i++;
 }
-return (i);
+return (s);
 }

@@ -8,5 +8,21 @@
 */
 int _atoi(char *s)
 {
+while (*s != '\0')
+s++;
+if (s % 2 == 0)
+{
+s *= s;
+}
+if (s % 2 != 0)
+{
+s *= s;
+}
+if (argc < 3 || argc > 3)
+{
+printf("Error\n");
+return (1);
+}
+}
 return atoi(s);
 }

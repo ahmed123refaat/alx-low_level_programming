@@ -9,7 +9,8 @@
 */
 int check_num(char *str)
 {
-int count = 0;
+unsigned int count;
+count = 0;
 while (count < strlen(str)) /*count string*/
 {
 if (!isdigit(str[count])) /*check if str there are digit*/

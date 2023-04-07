@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include "main.h"
-#include<cs50.h>
 /**
 * main - prints the name of the program
 * @argc: number of arguments

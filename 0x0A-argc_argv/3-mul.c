@@ -18,7 +18,7 @@ if (s % 2 != 0)
 {
 s *= s;
 }
-if (argc < 3 || argc > 3)
+if (s < 3 || s > 3)
 {
 printf("Error\n");
 return (1);

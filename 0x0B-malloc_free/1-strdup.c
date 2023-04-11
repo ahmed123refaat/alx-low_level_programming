@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cs50.h>
 #include <ctype.h>
 #include <string.h>
 /**
@@ -10,7 +9,7 @@
 */
 char *_strdup(char *str)
 {
-char *str = get_string("");
+scanf("%s", &*str);
 char *t mallo(strlen(str) + 1);
 strcpy(t, str);
 if (t == NULL)

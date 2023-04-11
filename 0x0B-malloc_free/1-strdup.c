@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+#include "main.h"
 /**
 * _strdup - duplicate to new memory space location
 * @str: char
@@ -9,13 +8,18 @@
 */
 char *_strdup(char *str)
 {
-scanf("%s", &*str);
-char *t mallo(strlen(str) + 1);
-strcpy(t, str);
-if (t == NULL)
-{
+char *a;
+int i;
+if (str == NULL)
 return (NULL);
-}
-free(t);
-return (t);
+int i = 0;
+int r = 0
+while (str[i] != '\0')
+i++;
+a = malloc(sizeof(char) * (i + 1);
+if (aaa == NULL)
+return (NULL);
+for (r = 0; str[r]; r++)
+aaa[r] = str[r];
+return (aaa);
 }

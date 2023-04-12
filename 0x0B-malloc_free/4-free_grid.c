@@ -11,22 +11,9 @@
 void free_grid(int **grid, int height)
 {
 int i;
-int j;
-int **x;
-x = malloc(sizeof(int*) * height);
-if (x == NULL)
-{
-return (NULL);
-}
 for (i = 0; i < height; i++)
 {
-x[i] = malloc(sizeof(int*) * grid);
-if (x[i] == NULL)
-{       
-free(x);
+free(grid[i]);
 }
-for (j = 0; j < grid; j++)
-x[i][j];
-}
-return (free_grid);
+free(grid);
 }

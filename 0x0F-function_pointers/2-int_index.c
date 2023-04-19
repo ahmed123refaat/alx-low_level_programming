@@ -11,14 +11,13 @@ int int_index(int *array, int size, int (*cmp)(int))
 unsigned int i;
 for (i = 0; i < size; i++)
 {
-if (array[i] >= 0 && array[i] <=9 )
+if (array == NULL || size <= 0 || cmp == NULL)
 {
-return true;
-}
-else
+return (-1);
+for (i = 0; i < size; i++)
 {
-return -1;
+if (cmp(array[i]))
+return (i);
 }
-cmp(array[i];
-}
+return (-1);
 }

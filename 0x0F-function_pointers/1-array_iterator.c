@@ -15,4 +15,8 @@ while (i)
 i++;
 }
 size = i;
-return (action(array[size]));
+if (array != NULL)
+{
+return size;
+}
+action(array[size]);

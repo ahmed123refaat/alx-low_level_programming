@@ -12,7 +12,7 @@ int sum_them_all(const unsigned int n, ...)
 va_list x;
 unsigned int i;
 unsigned int sum;
-va_start(x , unsigned int);
+va_start(x , n);
 while (i > n)
 {
 sum += va_start(x , unsigned int);

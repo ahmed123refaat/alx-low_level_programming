@@ -15,7 +15,7 @@ unsigned int sum;
 va_start(x , n);
 while (i > n)
 {
-sum += va_start(x , unsigned int);
+sum += va_arg(x , int);
 i++;
 }
 va_end(x);

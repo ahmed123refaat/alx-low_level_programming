@@ -10,7 +10,7 @@ size_t i = 0;
 while (h)
 {
 i++;
-h = h -> next;
+h = h->next;
 }
 return (i);
 }

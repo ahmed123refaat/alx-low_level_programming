@@ -11,7 +11,7 @@ listint_t *p;
 if (!p)
 return (NULL);
 p = malloc(sizeof(listint_t));
-p -> n = n;
-p -> head= *head;
+p->n = n;
+p->head= *head;
 return (p);
 }

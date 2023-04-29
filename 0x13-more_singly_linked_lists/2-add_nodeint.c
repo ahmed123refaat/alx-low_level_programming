@@ -11,10 +11,7 @@ listint_t *p;
 if (!p)
 return (NULL);
 p = malloc(sizeof(listint_t));
-while (p)
-{
 p->n = n;
 p->next = *head;
 return (p);
-}
 }

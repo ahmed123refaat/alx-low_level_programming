@@ -5,7 +5,8 @@
 */
 void free_listint(listint_t *head)
 {
-head = malloc(sizeof(listint_t))
-if (head == NULL)
+listint_t *t;
+t = head->next;
 free(head);
+head = t;
 }

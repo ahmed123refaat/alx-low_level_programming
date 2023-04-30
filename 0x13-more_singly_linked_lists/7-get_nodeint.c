@@ -14,7 +14,7 @@ while (temp != NULL && i < index)
 temp = temp->next;
 i++;
 if (i == index)
-temp->next = head;
+temp->next = temp;
 }
 temp->next = NULL;
 return (temp);

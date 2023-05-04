@@ -5,18 +5,19 @@
 */
 void print_binary(unsigned long int n)
 {
-if (n == 0)
+int i, count = 0;
+unsigned long int current;
+for (i = 63; i >= 0; i--)
 {
-return (0);
-}
-int arr[32];
-int i = 0;
-for ( ; num >0; )
+current = n >> i;
+if (current & 1)
 {
-arr[i++] = num % 2;
-num /= 2;
+_putchar('1');
+count++;
 }
-for (int j = i-1; j >= 0; j++)
-arr[j];
-return (arr[j]);
+else if (count)
+_putchar('0');
+}
+if (!count)
+_putchar('0');
 }

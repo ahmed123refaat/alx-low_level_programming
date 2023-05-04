@@ -7,8 +7,7 @@ void print_binary(unsigned long int n)
 {
 if (n == 0)
 {
-_putchar('0');
-return;
+return (0);
 }
 int arr[32];
 int i = 0;
